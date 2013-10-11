@@ -16,6 +16,9 @@ app magazine
 
 https://appdevelopermagazine.com/App
 
+mockup tool
+https://www.fluidui.com/editor/live/
+
 WPF
 
 http://www.wpf-tutorial.com/treeview-control/treeview-data-binding-multiple-templates/

@@ -5,7 +5,7 @@
 RewriteEngine on
 
 #RewriteBase /codeigniter/
-RewriteBase /codeigniter/
+RewriteBase /memo/
 
 
 #RewriteRule ^css/(.*)$ application/views/css/$1 [L]

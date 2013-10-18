@@ -11,6 +11,7 @@ class App extends CI_Controller {
 
 	function index() {
 		//echo 'app index';
+		header('Content-Type:text/html; charset=utf-8');
 		$this -> load -> helper('url');
 		$this -> load -> view('category');
 	}

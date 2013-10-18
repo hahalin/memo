@@ -3,178 +3,125 @@
 	<head>
 		<title>Bootstrap 101 Template</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Bootstrap -->
+		<!-- Bootstrap 
+		
+		-->
+		<link href="<?php echo base_url()?>assets/css/slidingmenu.css" rel="stylesheet" media="screen">
 		<link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="<?php echo base_url()?>assets/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-		<link href="<?php echo base_url()?>assets/css/slidingmenu.css" rel="stylesheet" media="screen">
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+		<script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
+		<script src="<?php echo base_url()?>assets/js/bootstrap-tab.js"></script><!--
+		
+		-->
 
 	</head>
 	<body>
 		<h1>Hello, world!</h1>
-
+		
 		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span2">
+					<img src="http://placehold.it/140x140" class="img-polaroid" alt="140x140" />
+				</div>
+				<div class="span10">
+					<div class="row-fluid">
+						<p><h3>company name</h3></p>
+						<div class="span4">
+							<legend>Legend</legend>
+							<p>
+								<a href=#><span class="label label-success">企業分類</span></a>
+								<i class="icon-envelope"></i><strong>Email:</strong>aaa@a.b.c</br>
+								<i class="icon-globe"></i><strong>網址:</strong>www.aaa.bbb.ccc</br>
+								
+							</p>
+						</div>
+						<div class="span1"></div>
+						<div class="row-fluid">
+							<div class="span6">
+								<legend>Legend</legend>
+								<strong>區域:</strong><a href=#><span class="label label-info">華東</span></a>
+								<strong>省份:</strong><a href=#><span class="label">江蘇</span></a></br>
+								<strong>地址:</strong><a href=#><span>江蘇xxxxxxxxxxxxxxxxxxxxxxxxxxx</span></a>
+							</div>
+						</div>
+						<div class="row-fluid">
+							&nbsp;&nbsp;
+						</div>
+					</div>
+					<div class="row-fluid">
+							<p></p>	
+							<div class="span6">
+								
+							<legend>Detail</legend>
+							<div class="">
+								<ul class="nav nav-tabs" id="company_tab" >
+								  <li><a href="#home" data-toggle="tab">聯絡人</a></li>
+								  <li><a href="#profile" data-toggle="tab">經營商品</a></li>
+								</ul>
+								<div class="tab-content" >
+									
+									<div class="tab-pane active in " id="home">
+										<table class="table table-striped">
+											<thead>
+								                <tr>
+								                  <th>#</th>
+								                  <th>姓名</th>
+								                  <th>性別</th>
+								                  <th>職稱</th>
+								                  <th>Tel</th>
+								                </tr>
+								             </thead>
+								             <tbody>
+								             	<tr>
+								             		<td><span class="label label-important">主要</span></td>
+								             		<td>name</td>
+								             		<td>man</td>
+								             		<td>manager</td>
+								             		<td>223441</td>
+								             	</tr>
+								             	<tr>
+								             		<td></td>
+								             		<td>name</td>
+								             		<td>man</td>
+								             		<td>manager</td>
+								             		<td>223441</td>
+								             	</tr>
+								             	<tr>
+								             		<td></td>
+								             		<td>name</td>
+								             		<td>man</td>
+								             		<td>manager</td>
+								             		<td>223441</td>
+								             	</tr>
+								             </tbody>
+										</table>
+									</div>
+								
+									<div class="tab-pane " id="profile">
+										<div>
+											<address>
+											  <strong>Twitter, Inc.</strong><br>
+											  795 Folsom Ave, Suite 600<br>
+											  San Francisco, CA 94107<br>
+											  <abbr title="Phone">P:</abbr> (123) 456-7890
+											</address>
+										</div>		
+									</div>
+								</div>
+								</div>
+
+							</div>					
+
+						</div>					
+				</div>
+			</div>
 			<div class="row-fluid">
 				<script></script>
 				<div class="span9 row">
-					<div class="span3">
-						<div class="slashc-sliding-menu" id="inbox-menu-js" style="overflow: display; width: 249px; height: 518px;">	
-													<h1 id="inbox-menu-header-js" >
-														<span style="opacity: 1;">test</span> 
-														<a title="Slide Back Home" href="javascript:void(0);" class="slashc-sliding-menu-home btn btn-inverse">
-															<i class="icon-angle-left"></i>
-														</a>
-													</h1>
-													<a title="Slide Back Home" href="javascript:void(0);" id="slashc-sliding-menu-back btn" 
-														  style="left:50px;"
-														>
-															back
-													</a>
-
-													<ul class="mailbox" id="mailbox-js" style="height: 622px; top: 0px; left: 0px;">
-														<li><a href="javascript:void(0);"><span>Inbox</span><span class="badge">26</span><i class="icon-angle-right"></i></a>
-															<ul style="left: 249px; top: 0px; display: block;">
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			From: David Simpson
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Dear Victoria, Congratulations! Your work has been uploaded to wrapbootstrap.com...</span>
-																		</span>
-																	</a>
-																	<ul>
-																		<li>
-																			<a href='#'><span>aaa</span></a>
-																		</li>
-																	</ul>
-																</li>
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			Re:Last Year sales
-																			<i class="icon-paper-clip"></i>
-																			<span class="tiny-des">Hey Vicky, find attached! Thx :-)</span>
-																		</span>
-																	</a>
-																</li>
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			Company Party
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Hi, You have been cordially invited to join new year after party.</span>
-																		</span>
-																	</a>
-																</li>
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			RE: 2 Bugs found...
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">I have found two more bugs in this your beta version, maybe its not working...</span>
-																		</span>
-																	</a>
-																</li>
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			2 Bugs found...
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales.</span>
-																		</span>
-																	</a>
-																</li>
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			Incka porfa varos?
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Forut dashly kuba tuma lope hamur toaila... </span>
-																		</span>
-																	</a>
-																</li>
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			This is a test message
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Laku naka obaba muta...</span>
-																		</span>
-																	</a>
-																</li>
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			Welcome to Jarvis!
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Feugiat a, tellus. Phasellus viverra nulla ut metus varius. Quisque rutrum. Aenean imperdiet... </span>
-																		</span>
-																	</a>
-																</li>
-																<li>
-																	<div class="push-down"></div>
-																</li>
-															</ul>
-														</li>
-														<li>
-															<a href="javascript:void(0);"><span>Outbox</span><span class="badge">1</span><i class="icon-angle-right"></i></a>
-															<ul style="left: 249px; top: -44px; display: none;">
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			Message Title
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Message line truncated...</span>
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li>
-															<a href="javascript:void(0);"><span>Sent</span><i class="icon-angle-right"></i></a>
-															<ul style="left: 249px; top: -88px; display: none;">
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			Message Title
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Message line truncated...</span>
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li>
-															<a href="javascript:void(0);"><span>Trash</span><i class="icon-angle-right"></i></a>
-															<ul style="left: 249px; top: -132px; display: none;">
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			Message Title
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Message line truncated...</span>
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</li>
-														<li>
-															<a href="javascript:void(0);"><span>Saved Messages</span><i class="icon-angle-right"></i></a>
-															<ul style="left: 249px; top: -176px; display: none;">
-																<li>
-																	<a href="javascript:void(0)">
-																		<span class="tiny-sub">
-																			Message Title
-																			<!--<i class="icon-paper-clip"></i>-->
-																			<span class="tiny-des">Message line truncated...</span>
-																		</span>
-																	</a>
-																</li>
-															</ul>
-														</li>
-													</ul>
-												</div>
-						
-					</div>
 					<div class="span3">
 						<div class="slashc-sliding-menu" id="menua">
 							<h1 id="inbox-menu-header-js"><span>test</span><a title="Slide Back Home" href="javascript:void(0);" class="slashc-sliding-menu-home btn btn-inverse"> <i class="icon-angle-left"></i> </a></h1>
@@ -263,11 +210,10 @@
 			</div>
 		</div>
 
-		<script src="http://code.jquery.com/jquery.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
-		<script src="<?php echo base_url()?>assets/js/bootstrap.min.js"></script>
 		<script src="<?php echo base_url()?>assets/js/slashc-sliding-menu.js"></script>
 		<script src="<?php echo base_url()?>assets/js/slimScroll.min.js"></script>
+
+				
 
 		<script>
 			function getcount() {
@@ -302,7 +248,18 @@
 
 			$(function() {
 
-				//alert('jquery');
+				
+				$('#company_tab a').click(function (e) {
+								  e.preventDefault();
+								  $(this).tab('show');
+				});
+				
+
+				
+				$(function () {
+				    $('#company_tab a:first').tab('show');
+				});
+				
 				$('#loading').hide();
 
 				$('#loading').show();

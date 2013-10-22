@@ -15,6 +15,37 @@ class App extends CI_Controller {
 		$this -> load -> helper('url');
 		$this -> load -> view('category');
 	}
+	function test($a,$b)
+	{
+		$this->load->helper('url');
+		
+		$segs = $this->uri->rsegment_array();
+
+		foreach ($segs as $segment)
+		{
+		    echo $segment;
+		    echo '<br />';
+		}
+		
+		return;
+		
+		echo $this->uri->total_segments(); echo '</br>';
+		echo $this->uri->total_rsegments(); echo '</br>';
+		
+		echo $this->uri->segment(3, 0);
+		echo '</br>';
+		echo $this->uri->segment(4, 0);
+		echo '</br>';
+		echo $this->uri->segment(5, 0);
+		echo '</br>';
+		
+		
+		return;
+		echo $a .'</br>';
+		echo $b .'</br>';
+		$c=$_GET['pa'];	
+		echo $c .'</br>';		
+	}
 
 	function add($id = 0) {
 		$this -> output -> enable_profiler(false);
